@@ -53,7 +53,7 @@ def bike_map():
         if submitted:
             make_request()
 
-            station_data = pd.read_csv('BikeStations.csv')
+            station_data = pd.read_csv('FLOW2023Project/BikeStations.csv')
 
             station_df = pd.DataFrame(station_data)
 
